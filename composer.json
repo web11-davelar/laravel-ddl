@@ -14,5 +14,10 @@
   "minimum-stability": "dev",
   "require-dev": {
     "phpspec/phpspec": "^2.2@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Davelar\\LaravelDbal\\": "src/"
+    }
   }
 }
