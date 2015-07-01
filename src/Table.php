@@ -1,9 +1,7 @@
-<?php namespace Lanch\Database;
-
-use DB, Exception;
+<?php namespace Daavelar\Database;
 
 class Table {
-	
+
 	public function show() {
 
 	} 

@@ -1,15 +1,18 @@
 {
-    "name": "web11-davelar/laravel-dbal",
-    "description": "Provide DDL functions for Laravel when using mysql",
-    "require": {
-        "doctrine/dbal": "^2.6@dev"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Diego Avelar",
-            "email": "davelar@webeleven.com.br"
-        }
-    ],
-    "minimum-stability": "dev"
+  "name": "web11-davelar/laravel-dbal",
+  "description": "Provide functions for the Database Layer",
+  "require": {
+    "doctrine/dbal": "^2.6@dev"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Diego Avelar",
+      "email": "davelar@webeleven.com.br"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require-dev": {
+    "phpspec/phpspec": "^2.2@dev"
+  }
 }
